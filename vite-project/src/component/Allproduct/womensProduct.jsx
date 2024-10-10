@@ -34,7 +34,18 @@ function womenProduct() {
     }, []);
 
     const handleAddToCart = (product) => {
-      dispatch(addToCart(product)); 
+      const userId = localStorage.getItem('userId');
+  
+      if(!userId){
+          alert('you need to log in to add item to the cart')
+          Navigate('/login')
+      }else{
+          dispatch(addToCart(product)); 
+          alert('Product Added to Cart')
+      }
+  
+  
+  
     };
   
   

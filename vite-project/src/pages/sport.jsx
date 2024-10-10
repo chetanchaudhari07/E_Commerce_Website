@@ -6,9 +6,9 @@ import Pickups from '../component/Pickups/pickups';
 import Allproducts from './productsPages/allproducts.page'
 import MenProduct from './productsPages/MenProduct'
 import WomenProduct from './productsPages/womenProduct'
-import KidsProduct from './../component/Allproduct/kidsProduct'
+import KidsProduct from './productsPages/kidsProduct'
 import BabyProduct from './productsPages/babyProduct'
-import SportProduct from './../component/Allproduct/sportsProduct'
+import SportProduct from './productsPages/sportProduct'
 
 
 function sport() {
